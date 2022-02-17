@@ -1,0 +1,295 @@
+.link{
+    color:rgb(70, 70, 252);
+}
+.aboutContainer{
+ min-height: 95vh;
+ width:100%;
+ position:relative;
+ display:flow-root;
+
+}
+
+.aboutInfoImageContainer{
+    width:85%;
+    display:flex;
+    margin:12rem auto 0 auto;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.aboutImageContainer{
+  
+    width: 65rem;
+   
+}
+
+.aboutImageContainer img{
+    height:100%;
+    width: 100%;
+    
+}
+.aboutInfoContainer{ 
+    padding:2.2rem;
+    border-radius: 2rem;
+    background-image: linear-gradient(110.79248633202553deg, rgb(240, 119, 135) 5.533854166666667%,rgb(253, 210, 141) 96.67968749999999%);
+    box-shadow: 0rem 2rem 5rem rgba(43, 43, 43, 0.349);
+    animation: moveInLeft 1s ease-in-out;
+    max-height:32.5rem;
+}
+
+.aboutInfoWrapper{
+    background-color: rgba(112, 111, 111, 0.445);
+    padding:1rem 2.5rem;
+    border-radius: 2rem;
+    height:100%;
+}
+.aboutInfoContainer h3{
+    padding:1.3rem 0.4rem ;
+   font-size:2rem;
+   color:rgb(245, 241, 241);
+}
+
+.aboutInfoContainer span{
+    color:#FFD66B;
+}
+
+.aboutInfoContainer h1{
+   padding:3rem 0;
+   font-size:5rem;
+   font-weight:700;
+   text-transform:uppercase;
+   font-family: 'Outfit', sans-serif;
+   color:rgb(245, 241, 241);
+}
+
+.aboutInfoContainer p{
+    padding:1.5rem 0.4rem;
+    font-size:1.5rem;
+    color:rgb(245, 241, 241);
+}
+
+.aboutInfoButtonContainer{
+     display:flex;
+     justify-content:center;
+     padding :2rem 0;
+    
+} 
+
+.aboutInfoButtonContainer button{
+    padding:1rem 2.5rem;
+    margin: 0 2rem;
+    border-radius:3rem;
+    color:rgb(46, 44, 44);
+    font-size: 1.4rem;
+    border: 2px solid rgb(245, 241, 241);
+    background-color:transparent;
+    font-weight: 600;
+    color:rgb(245, 241, 241);
+    transition:all 0.2s
+} 
+
+.aboutInfoButtonContainer button:hover{
+    
+    background-color:rgb(245, 241, 241);
+    color:rgb(82, 82, 82);
+} 
+
+.aboutMeDetailsContainer{
+    justify-content:space-between;
+    display:flow-root;
+    min-height:100vh;
+   
+}
+
+.aboutMeDetailsWrapper{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    margin:15rem auto;
+    padding:5rem 1rem;
+}
+.aboutMeDetailsInfoContainer{
+    width:65%;
+    margin-left:2rem;
+}
+.aboutMeDetailsContainer h1{
+    font-family: "Lato";
+    font-size:5.5rem;
+    padding:3rem 0;
+    color:rgba(82, 82, 82, 0.836);
+    font-weight: bold;
+    margin:0rem auto 2rem auto;
+    border-bottom:1px solid rgba(49, 49, 49, 0.336);
+    font-family: 'Outfit', sans-serif;
+}
+
+.aboutMeDetailsContainer span{
+    color:#FF5959;
+}
+
+
+.aboutMeDetailsInfoPara1{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height:2.8rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.aboutMeDetailsInfoPara2{
+    margin-top:2rem;
+    font-size: 1.7rem;
+    line-height:2.5rem;
+    font-weight: 400;
+    color:rgba(46, 46, 46, 0.753);
+    font-family: 'Outfit', sans-serif;
+}
+
+.aboutMeDetailsSkilsProfilePicsContainer{
+    border-radius: 50%;
+    padding:1.2rem;
+    border: .8rem solid #54bab8cc;;
+}
+
+.aboutMeDetailsSkilsProfilePicsContainer img{
+    
+    width:25rem;
+    border-radius: 50%;
+    
+}
+
+
+
+@keyframes moveInLeft{
+    0%{
+        opacity:0;
+        transform: translateX(-100%);
+    }
+    80%{
+        transform: translateX(2rem);   
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0); 
+       
+    }
+}
+
+
+
+
+@media(max-width:1100px){
+    .aboutInfoImageContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+
+    .aboutInfoContainer{
+        order:2;
+        margin-top:5rem;
+    }
+    .aboutImageContainer{
+       margin:0 auto;
+       
+    }
+    
+}
+@media(max-width:818px){
+    .aboutMeDetailsWrapper{
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    .aboutMeDetailsInfoContainer{
+        width:100%;
+        margin: 4rem auto 2rem auto;
+      
+    }
+    .aboutMeDetailsSkillsContainer{
+    
+       text-align: center;
+    
+    
+    }
+    
+    .aboutMeDetailsSkilsProfilePicsContainer{
+        display:inline-block;
+        margin:1rem auto;
+    }
+
+}
+
+@media(max-width:704px){
+    .aboutImageContainer{
+        width:100%;
+       
+       
+    }
+
+}
+
+
+@media(max-width:450px){
+    
+    .aboutInfoImageContainer{
+        margin:15rem auto 6rem auto;;
+    }
+    .aboutInfoContainer h1{
+        padding:1rem 0;
+        font-size:3rem;
+        font-weight:700;
+        text-transform:uppercase;
+        font-family: 'Outfit', sans-serif;
+        color:rgb(245, 241, 241);
+    }
+
+    .aboutInfoContainer h3{
+        font-size:1.6rem;
+       
+    }
+    
+    .aboutInfoButtonContainer{
+       display:flex;
+       padding :1rem 0;
+      
+    }
+    .aboutInfoButtonContainer button{
+        padding:0.7rem 1.5rem;
+        margin: 0 1rem;
+        font-size:1.2rem;
+        font-weight: 400;
+    }  
+    .aboutInfoWrapper{
+        padding:1rem 1rem;
+       
+        
+    }
+    .aboutInfoContainer p{
+        font-size:1.2rem;
+      
+    }
+
+    .aboutMeDetailsContainer h1{
+        font-size:3.4rem;
+    }
+
+    .aboutMeDetailsInfoPara1{
+       font-size:2.2rem; 
+    }
+    
+    .aboutMeDetailsInfoPara2{
+        font-size:1.5rem;
+    }
+    .aboutMeDetailsSkilsProfilePicsContainer img{
+    
+        width:20rem;
+   
+        
+    }
+    .aboutMeDetailsWrapper{
+        margin:4rem auto;
+        padding:2rem 1rem
+    }
+
+}

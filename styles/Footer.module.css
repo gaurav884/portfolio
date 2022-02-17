@@ -1,0 +1,143 @@
+.footerOuter{
+ 
+    border-top: 0.5px solid rgba(128, 128, 128, 0.404);
+    font-family: 'Outfit', sans-serif;
+    color: rgb(78, 78, 78); 
+    width: 100%;
+    display: flow-root;
+}
+.footerContainer{
+   
+    margin: 4rem auto;
+}
+.footerHeadings{
+    font-size:2rem;
+    margin:2rem 0;
+
+}
+.footerContainer1{
+    width: 90%;
+    margin:5px auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap:2rem 2rem;
+}
+
+
+.addressContainer{
+    
+    margin: 0 2rem;
+    padding : 1rem 1rem;
+}
+
+.address{
+    margin: 1rem 0; 
+    font-size:1.3rem;
+  
+    line-height: 1.9rem;
+}
+
+
+.socialContainer{
+    
+    
+    padding : 1rem 1rem;
+
+}
+.footerSocialLinks{
+    list-style: none;
+    margin: 1rem 0;
+    font-size:1.3rem;
+    
+}
+.socialContainer a{ 
+    text-decoration:none;
+}
+
+
+
+.contactContainer{
+    
+    
+    padding : 1rem 1rem;
+}
+
+.contactInfo{
+    margin: 1rem 0;
+    font-size:1.3rem;
+  
+}
+
+
+.footerContainer2 {
+    width: 90%;
+    padding:2rem 0;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+ 
+}
+
+.footerContainer2 p{
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+  ;
+    margin:5px 0;
+}
+.footerSocialLinksContainer{
+    padding: 1rem 0rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+.footerSocialLinksContainer a{
+    height:3rem;
+    width:3rem;
+    margin : 0 5px;
+    transition: all 0.3s;
+}
+
+.footerSocialLinksContainer a:hover{
+    transform:scale(1.3);
+}
+.footerSocialLinksContainer a svg{
+    height:100%;
+    width:100%;
+}
+
+
+
+
+@media(max-width:690px){
+    .footerContainer1{
+        grid-template-columns: repeat(2 , 1fr);
+       
+    }
+    .addressContainer{
+    
+        margin: 0 ;
+    }
+}
+
+
+@media(max-width:426px){
+    .footerContainer1{
+       
+        grid-template-columns: repeat(1 , 1fr);
+      
+    }
+    
+     .footerContainer2 {
+       padding:2rem 2rem;
+       display:flex;
+       flex-direction:column;
+       
+    }
+    .footerCopyrightContainer{
+        text-align:center;
+    }
+    .footerContainer2 {
+        padding:2rem 1rem;
+        
+    }
+}

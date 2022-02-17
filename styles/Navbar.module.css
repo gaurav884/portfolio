@@ -1,0 +1,133 @@
+.navbarContainer{
+    
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:1.8rem 8rem;
+    z-index:20;
+    position:absolute;
+ 
+}
+
+.navbarBrandContainer h2{
+    font-size: 2.5rem;
+    padding:1rem;
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing:2px;
+    color:#FF5959;
+}
+
+
+.navbarLinksContainer ul{
+    display:flex;
+    margin-right: 5rem;
+}
+
+.navbarLinksContainer li{
+  
+    list-style: none;
+    padding:1rem;
+    
+}
+.navbarLinksContainer a{
+    font-family: 'Outfit', sans-serif;
+    text-transform:uppercase;
+    padding:1rem 2rem;
+    text-decoration:none;
+    font-size:1.6rem;
+    font-weight:600;
+    color:rgb(73, 73, 73);
+    border-radius:1rem;
+    transition:all 0.1s;
+}
+
+
+.navbarLinksContainer a:hover{
+    background-color:#FF5959;
+    color:white;
+}
+
+.navbarToggler{
+    height:4rem;
+    width: 4rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding:0.3rem;
+    display:none;
+}
+
+.navbarToggler span{
+    height: 0.4rem;
+    background-color:black;
+    border-radius: 3px;
+}
+
+
+
+@media(max-width:1000px){
+    
+   .navbarLinksContainer ul{
+      margin-right: 0;
+      color:rgb(73, 73, 73);
+    }
+
+   .navbarContainer{
+      padding:2rem 4rem;
+     
+    }
+    .navbarLinksContainer a{
+        
+        padding:1rem 1rem;
+        
+    }
+}
+
+
+@media(max-width:600px){
+    .navbarLinksContainer a:hover{
+        background-color:transparent;
+        color:rgb(73, 73, 73);
+    }
+    .navbarToggler{
+        display:flex;
+    }
+    .navbarLinksContainer{
+        position:absolute;
+        width:100%;
+        top:8rem;
+        left:0;
+        height:0;
+        background-image: linear-gradient(110.79248633202553deg, rgba(226, 235, 239,1) 5.533854166666667%,rgba(208, 218, 224,1) 96.67968749999999%)
+        ;
+        overflow: hidden;
+        transition: all 1s;
+      
+    }
+    .navbarLinksContainer ul{
+        justify-content:center;
+        flex-direction:column;
+        width:100%;
+        height:50%;
+        margin:5rem auto
+    }
+    .navbarLinksContainer li{
+        text-align:center;
+        width:100%;
+        height:100%;
+        padding:0;
+    }
+    .navbarLinksContainer a{
+        display: inline-block;
+        margin:1rem auto;
+        width:100%;
+        border-radius: 0;
+        padding:1.5rem 0;
+        font-size: 1.8rem;
+    }
+
+    .navbarLinksContainerActive{
+        height:100vh;
+    }
+    
+}
