@@ -28,8 +28,8 @@ const Projects = () => {
         </div>
         <div className={ProjectsStyles.projectBack}>
           <div className={ProjectsStyles.projectBackButtonsContainer}>
-            <a href="https://budkazar7884.herokuapp.com/" target="_blank"><GrHeroku />Visit</a>
-            <a href="https://github.com/gaurav884/budkazar" target="_blank"><AiFillGithub />Git repo</a>
+            <a rel="noopener noreferrer" href="https://budkazar7884.herokuapp.com/" target="_blank"><GrHeroku />Visit</a>
+            <a rel="noopener noreferrer" href="https://github.com/gaurav884/budkazar" target="_blank"><AiFillGithub />Git repo</a>
           </div>
         </div>
       </div>
@@ -49,8 +49,8 @@ const Projects = () => {
         </div>
         <div className={ProjectsStyles.projectBack}>
           <div className={ProjectsStyles.projectBackButtonsContainer}>
-            <a href="https://socialscout7884.herokuapp.com/sign-in" target="_blank"><GrHeroku />Visit</a>
-            <a href="https://github.com/gaurav884/SocialScout" target="_blank"><AiFillGithub />Git repo</a>
+            <a rel="noopener noreferrer" href="https://socialscout7884.herokuapp.com/sign-in" target="_blank"><GrHeroku />Visit</a>
+            <a rel="noopener noreferrer" href="https://github.com/gaurav884/SocialScout" target="_blank"><AiFillGithub />Git repo</a>
           </div>
         </div>
       </div>
@@ -70,8 +70,8 @@ const Projects = () => {
         </div>
         <div className={ProjectsStyles.projectBack}>
           <div className={ProjectsStyles.projectBackButtonsContainer}>
-            <a href="https://footscore7884.herokuapp.com/" target="_blank"><GrHeroku />Visit</a>
-            <a href="https://github.com/gaurav884/footscore" target="_blank"><AiFillGithub />Git repo</a>
+            <a rel="noopener noreferrer" href="https://footscore7884.herokuapp.com/" target="_blank"><GrHeroku />Visit</a>
+            <a rel="noopener noreferrer" href="https://github.com/gaurav884/footscore" target="_blank"><iFillGithub />Git repo</a>
           </div>
         </div>
       </div>

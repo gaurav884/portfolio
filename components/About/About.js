@@ -7,7 +7,7 @@ const About = () => {
     <div className={AboutStyles.aboutInfoImageContainer}>
       <div className={AboutStyles.aboutInfoContainer}>
         <div className={AboutStyles.aboutInfoWrapper}>
-          <h3>Hi, I'm <span>Gaurav</span></h3>
+          <h3>Hi, I&apos;m <span>Gaurav</span></h3>
           <h1>Developer</h1>
           <p>I love to work in UI/UX designing. I always try to make good UI and best UX </p>
           <div className={AboutStyles.aboutInfoButtonContainer}>
@@ -29,9 +29,9 @@ const About = () => {
         </div>
 
         <div className={AboutStyles.aboutMeDetailsInfoContainer}>
-          <h1>Hi, I'm <span>Gaurav!</span></h1>
+          <h1>Hi, I&apos;m <span>Gaurav!</span></h1>
           <p className={AboutStyles.aboutMeDetailsInfoPara1}>Web Developer</p>
-          <p className={AboutStyles.aboutMeDetailsInfoPara2}>Currently I am a persuing my B.Tech(19-23) in Electrical Engineering at National Institute of Technology Hamirpur. Also I am open to design oportunities. If you want, you can view my <a href="https://www.linkedin.com/in/gaurav-thakur-862129203/" target="_blank" className={AboutStyles.link}>LinkedIn</a> profile, download my updated <a href="https://drive.google.com/drive/folders/1R8OOjZYNrQASJ3L7IMBiMkQsOVbHJhwN" target="_blank" className={AboutStyles.link}>resume</a> or see my latest work down here.</p>
+          <p className={AboutStyles.aboutMeDetailsInfoPara2}>Currently I am a persuing my B.Tech(19-23) in Electrical Engineering at National Institute of Technology Hamirpur. Also I am open to design oportunities. If you want, you can view my <a rel="noopener noreferrer" href="https://www.linkedin.com/in/gaurav-thakur-862129203/" target="_blank" className={AboutStyles.link}>LinkedIn</a> profile, download my updated <a rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1R8OOjZYNrQASJ3L7IMBiMkQsOVbHJhwN" target="_blank" className={AboutStyles.link}>resume</a> or see my latest work down here.</p>
         </div>
       </div>
     </div>
