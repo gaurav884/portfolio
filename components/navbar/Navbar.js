@@ -17,15 +17,15 @@ const Navbar = (props) => {
 
         <div className={isActive ? cx(NavbarStyles.navbarLinksContainer, NavbarStyles.navbarLinksContainerActive) : NavbarStyles.navbarLinksContainer}>
             <ul>
-                <li><a href="#" onClick={() => {
+                <li><a rel="nofollow" href="#" onClick={() => {
                     props.scroller(`skills`)
                     toggleHandler()
                 }}>Skills</a></li>
-                <li><a href="#" onClick={() => {
+                <li><a rel="nofollow" href="#" onClick={() => {
                     props.scroller(`works`)
                     toggleHandler()
                 }}>Works</a></li>
-                <li><a href="#" onClick={() => {
+                <li><a rel="nofollow" href="#" onClick={() => {
                     props.scroller(`contact`)
                     toggleHandler()
                 }}>Contact</a></li>
