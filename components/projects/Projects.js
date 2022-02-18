@@ -22,8 +22,8 @@ const Projects = () => {
 
           <div className={ProjectsStyles.projectDetails}>
             <p>Full stack web application</p>
-            <p>Ecommerce website.</p>
-            <p>Buy your favourite games.</p>
+            <p>Ecommerce website</p>
+            <p>Buy your favourite games</p>
           </div>
         </div>
         <div className={ProjectsStyles.projectBack}>
